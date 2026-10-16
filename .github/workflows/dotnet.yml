@@ -3,10 +3,9 @@ name: RaceDayAPI CI
 
 on:
   push:
-    branches: [ "main" ]
+    branches: [ "master" ]
   pull_request:
-    branches: [ "main" ]
-
+    branches: [ "master" ]
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
